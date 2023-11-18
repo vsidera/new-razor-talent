@@ -33,7 +33,6 @@ export default function Home() {
         </div>
       </div>
 
-
       <div
         className="flex mt-12 sm:mt-32 sm:gap-12 flex-col sm:flex-row"
         data-testid={testIds.HOME_PAGE.HIGHLIGHTS}
@@ -183,8 +182,6 @@ export default function Home() {
         </div>
       </div>
 
- 
-
       <div className="flex flex-col sm:flex-row sm:mt-32 mb-12 sm:gap-12">
         <div className="basis-2/3">
           <div className="h-[370px] sm:h-[470px] relative">
@@ -218,11 +215,11 @@ export default function Home() {
           <div className="border-y-4 border-blue-site p-8 sm:w-60 relative bg-white sm:ml-32 sm:mt-[-530px]">
             <h3 className="text-2xl font-site">Take Part</h3>
             <p className="my-6 text-sm">
-              How people can take part in Razor Talents activities.
-              How people can take part in Razor Talents activities.
-              How people can take part in Razor Talents activities.
-              How people can take part in Razor Talents activities.
-              How people can take part in Razor Talents activities.
+              How people can take part in Razor Talents activities. How people
+              can take part in Razor Talents activities. How people can take
+              part in Razor Talents activities. How people can take part in
+              Razor Talents activities. How people can take part in Razor
+              Talents activities.
             </p>
             <a href="/contact" className="text-purple-site py-6 font-site">
               Read More

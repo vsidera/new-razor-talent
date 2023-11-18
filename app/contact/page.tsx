@@ -60,7 +60,7 @@ export default async function Page() {
           </form>
         </div>
         <div className="max-w-4xl mx-auto mt-10">
-          <h3 className="font-site text-lg my-3">Partner</h3>
+          <h3 className="font-site text-lg my-3"> Razor Partner</h3>
           <form className="border-2 border-blue-site p-8">
             <div className="flex flex-col sm:flex-row sm:gap-12">
               <div className="basis-1/2">
