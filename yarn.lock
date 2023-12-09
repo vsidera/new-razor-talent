@@ -39,9 +39,9 @@
     chalk "^2.4.2"
     js-tokens "^4.0.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.18.3", "@babel/runtime@^7.22.15", "@babel/runtime@^7.23.2", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.7":
-  version "7.23.2"
-  resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.23.2.tgz"
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.12.5", "@babel/runtime@^7.18.3", "@babel/runtime@^7.22.15", "@babel/runtime@^7.23.2", "@babel/runtime@^7.23.5", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.8.3", "@babel/runtime@^7.8.7":
+  version "7.23.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.23.5.tgz#11edb98f8aeec529b82b211028177679144242db"
   dependencies:
     regenerator-runtime "^0.14.0"
 
@@ -855,17 +855,17 @@
     kind-of "~5.1.0"
     tslib "^2.6.2"
 
-"@wix/identity@^1.0.60":
-  version "1.0.60"
-  resolved "https://registry.npmjs.org/@wix/identity/-/identity-1.0.60.tgz"
+"@wix/identity@^1.0.63":
+  version "1.0.67"
+  resolved "https://registry.yarnpkg.com/@wix/identity/-/identity-1.0.67.tgz#dfbcdca6945e197f529bfeeb84fb9dbc601874f4"
   dependencies:
     "@wix/metro-runtime" "^1.0.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.0"
     "@wix/sdk-types" "^1.0.0"
 
-"@wix/image-kit@^1.38.0":
-  version "1.38.0"
-  resolved "https://registry.npmjs.org/@wix/image-kit/-/image-kit-1.38.0.tgz"
+"@wix/image-kit@^1.42.0":
+  version "1.42.0"
+  resolved "https://registry.yarnpkg.com/@wix/image-kit/-/image-kit-1.42.0.tgz#987211110a51d45a2deded3f1717a4f9e51e3f9f"
   dependencies:
     "@babel/runtime" "^7.0.0"
     tslib "^2.0.0"
@@ -949,30 +949,30 @@
   version "1.0.11"
   resolved "https://registry.npmjs.org/@wix/motion-edm-autogen-types/-/motion-edm-autogen-types-1.0.11.tgz"
 
-"@wix/redirects@^1.0.26":
-  version "1.0.26"
-  resolved "https://registry.npmjs.org/@wix/redirects/-/redirects-1.0.26.tgz"
+"@wix/redirects@^1.0.28":
+  version "1.0.29"
+  resolved "https://registry.yarnpkg.com/@wix/redirects/-/redirects-1.0.29.tgz#af6fd428a59eee6d541541c0683b90a581389c04"
   dependencies:
     "@wix/metro-runtime" "^1.0.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.0"
     "@wix/sdk-types" "^1.0.0"
 
-"@wix/sdk-types@1.5.1", "@wix/sdk-types@^1.0.0":
-  version "1.5.1"
-  resolved "https://registry.npmjs.org/@wix/sdk-types/-/sdk-types-1.5.1.tgz"
+"@wix/sdk-types@^1.0.0", "@wix/sdk-types@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-types/-/sdk-types-1.5.3.tgz#12427de89795bfd48a7acd8439939dc390344804"
 
 "@wix/sdk@^1.5.0":
-  version "1.5.6"
-  resolved "https://registry.npmjs.org/@wix/sdk/-/sdk-1.5.6.tgz"
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/@wix/sdk/-/sdk-1.5.9.tgz#9942a9055d78b54f747a06fa9c06ecb6e7788ed8"
   dependencies:
-    "@babel/runtime" "^7.23.2"
-    "@wix/identity" "^1.0.60"
-    "@wix/image-kit" "^1.38.0"
-    "@wix/redirects" "^1.0.26"
-    "@wix/sdk-types" "1.5.1"
+    "@babel/runtime" "^7.23.5"
+    "@wix/identity" "^1.0.63"
+    "@wix/image-kit" "^1.42.0"
+    "@wix/redirects" "^1.0.28"
+    "@wix/sdk-types" "^1.5.3"
     pkce-challenge "^3.1.0"
     querystring "^0.2.1"
-    type-fest "^3.13.1"
+    type-fest "^4.8.3"
   optionalDependencies:
     graphql "^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0"
 
@@ -3849,9 +3849,9 @@ type-fest@^0.20.2:
   version "0.20.2"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
 
-type-fest@^3.13.1:
-  version "3.13.1"
-  resolved "https://registry.npmjs.org/type-fest/-/type-fest-3.13.1.tgz"
+type-fest@^4.8.3:
+  version "4.8.3"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.8.3.tgz#6db08d9f44d596cd953f83020c7c56310c368d1c"
 
 typed-array-buffer@^1.0.0:
   version "1.0.0"
