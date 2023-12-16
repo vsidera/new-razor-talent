@@ -840,8 +840,8 @@
   resolved "https://registry.npmjs.org/@vercel/node-bridge/-/node-bridge-2.2.2.tgz"
 
 "@wix/data@^1.0.47":
-  version "1.0.55"
-  resolved "https://registry.npmjs.org/@wix/data/-/data-1.0.55.tgz"
+  version "1.0.60"
+  resolved "https://registry.yarnpkg.com/@wix/data/-/data-1.0.60.tgz#d4d14320b3eb4d653132821746b2c8b7dcaed76e"
   dependencies:
     "@wix/metro-runtime" "^1.0.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.0"
