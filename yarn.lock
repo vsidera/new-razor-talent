@@ -855,17 +855,17 @@
     kind-of "~5.1.0"
     tslib "^2.6.2"
 
-"@wix/identity@^1.0.60":
-  version "1.0.60"
-  resolved "https://registry.npmjs.org/@wix/identity/-/identity-1.0.60.tgz"
+"@wix/identity@^1.0.71":
+  version "1.0.71"
+  resolved "https://registry.yarnpkg.com/@wix/identity/-/identity-1.0.71.tgz#14ee969865287e3e89fa3934abc4f3a8c8abc8cb"
   dependencies:
     "@wix/metro-runtime" "^1.0.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.0"
     "@wix/sdk-types" "^1.0.0"
 
-"@wix/image-kit@^1.38.0":
-  version "1.38.0"
-  resolved "https://registry.npmjs.org/@wix/image-kit/-/image-kit-1.38.0.tgz"
+"@wix/image-kit@^1.46.0":
+  version "1.46.0"
+  resolved "https://registry.yarnpkg.com/@wix/image-kit/-/image-kit-1.46.0.tgz#ddfed6ca9bd7c41776ed5065d487e6ff770304e3"
   dependencies:
     "@babel/runtime" "^7.0.0"
     tslib "^2.0.0"
@@ -949,30 +949,28 @@
   version "1.0.11"
   resolved "https://registry.npmjs.org/@wix/motion-edm-autogen-types/-/motion-edm-autogen-types-1.0.11.tgz"
 
-"@wix/redirects@^1.0.26":
-  version "1.0.26"
-  resolved "https://registry.npmjs.org/@wix/redirects/-/redirects-1.0.26.tgz"
+"@wix/redirects@^1.0.31":
+  version "1.0.31"
+  resolved "https://registry.yarnpkg.com/@wix/redirects/-/redirects-1.0.31.tgz#71fadfc8eddc8589e382920786daed075c5471c7"
   dependencies:
     "@wix/metro-runtime" "^1.0.0"
     "@wix/motion-edm-autogen-query-wrapper" "^1.0.0"
     "@wix/sdk-types" "^1.0.0"
 
-"@wix/sdk-types@1.5.1", "@wix/sdk-types@^1.0.0":
-  version "1.5.1"
-  resolved "https://registry.npmjs.org/@wix/sdk-types/-/sdk-types-1.5.1.tgz"
+"@wix/sdk-types@^1.0.0", "@wix/sdk-types@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@wix/sdk-types/-/sdk-types-1.5.3.tgz#12427de89795bfd48a7acd8439939dc390344804"
 
 "@wix/sdk@^1.5.0":
-  version "1.5.6"
-  resolved "https://registry.npmjs.org/@wix/sdk/-/sdk-1.5.6.tgz"
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/@wix/sdk/-/sdk-1.6.4.tgz#0df3db4b4ebb98970ee610ed98ef7aa89ff0b8b0"
   dependencies:
-    "@babel/runtime" "^7.23.2"
-    "@wix/identity" "^1.0.60"
-    "@wix/image-kit" "^1.38.0"
-    "@wix/redirects" "^1.0.26"
-    "@wix/sdk-types" "1.5.1"
-    pkce-challenge "^3.1.0"
-    querystring "^0.2.1"
-    type-fest "^3.13.1"
+    "@wix/identity" "^1.0.71"
+    "@wix/image-kit" "^1.46.0"
+    "@wix/redirects" "^1.0.31"
+    "@wix/sdk-types" "^1.5.3"
+    crypto-js "^4.2.0"
+    type-fest "^4.9.0"
   optionalDependencies:
     graphql "^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0 || ^17.0.0"
 
@@ -1388,9 +1386,9 @@ cross-spawn@^7.0.2, cross-spawn@^7.0.3:
     shebang-command "^2.0.0"
     which "^2.0.1"
 
-crypto-js@^4.1.1:
+crypto-js@^4.2.0:
   version "4.2.0"
-  resolved "https://registry.npmjs.org/crypto-js/-/crypto-js-4.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/crypto-js/-/crypto-js-4.2.0.tgz#4d931639ecdfd12ff80e8186dba6af2c2e856631"
 
 css-vendor@^2.0.8:
   version "2.0.8"
@@ -3114,12 +3112,6 @@ pirates@^4.0.1:
   version "4.0.6"
   resolved "https://registry.npmjs.org/pirates/-/pirates-4.0.6.tgz"
 
-pkce-challenge@^3.1.0:
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/pkce-challenge/-/pkce-challenge-3.1.0.tgz"
-  dependencies:
-    crypto-js "^4.1.1"
-
 pkg-types@^1.0.3:
   version "1.0.3"
   resolved "https://registry.npmjs.org/pkg-types/-/pkg-types-1.0.3.tgz"
@@ -3252,10 +3244,6 @@ pump@^3.0.0:
 punycode@^2.1.0:
   version "2.3.1"
   resolved "https://registry.npmjs.org/punycode/-/punycode-2.3.1.tgz"
-
-querystring@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.npmjs.org/querystring/-/querystring-0.2.1.tgz"
 
 queue-microtask@^1.2.2:
   version "1.2.3"
@@ -3849,9 +3837,9 @@ type-fest@^0.20.2:
   version "0.20.2"
   resolved "https://registry.npmjs.org/type-fest/-/type-fest-0.20.2.tgz"
 
-type-fest@^3.13.1:
-  version "3.13.1"
-  resolved "https://registry.npmjs.org/type-fest/-/type-fest-3.13.1.tgz"
+type-fest@^4.9.0:
+  version "4.9.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.9.0.tgz#d29c8efe5b1e703feeb29cef23d887b2f479844d"
 
 typed-array-buffer@^1.0.0:
   version "1.0.0"
