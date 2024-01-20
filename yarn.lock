@@ -732,10 +732,10 @@
     "@parcel/watcher-win32-x64" "2.3.0"
 
 "@playwright/test@^1.34.3":
-  version "1.39.0"
-  resolved "https://registry.npmjs.org/@playwright/test/-/test-1.39.0.tgz"
+  version "1.41.1"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.41.1.tgz#6954139ed4a67999f1b17460aa3d184f4b334f18"
   dependencies:
-    playwright "1.39.0"
+    playwright "1.41.1"
 
 "@popperjs/core@^2.11.8", "@popperjs/core@^2.9.3":
   version "2.11.8"
@@ -3128,15 +3128,15 @@ pkg-types@^1.0.3:
     mlly "^1.2.0"
     pathe "^1.1.0"
 
-playwright-core@1.39.0:
-  version "1.39.0"
-  resolved "https://registry.npmjs.org/playwright-core/-/playwright-core-1.39.0.tgz"
+playwright-core@1.41.1:
+  version "1.41.1"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.41.1.tgz#9c152670010d9d6f970f34b68e3e935d3c487431"
 
-playwright@1.39.0:
-  version "1.39.0"
-  resolved "https://registry.npmjs.org/playwright/-/playwright-1.39.0.tgz"
+playwright@1.41.1:
+  version "1.41.1"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.41.1.tgz#83325f34165840d019355c2a78a50f21ed9b9c85"
   dependencies:
-    playwright-core "1.39.0"
+    playwright-core "1.41.1"
   optionalDependencies:
     fsevents "2.3.2"
 
